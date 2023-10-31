@@ -237,6 +237,7 @@ void assert_failed(uint8_t *file, uint32_t line)
  
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
+```
 FOR PULSE AT 500
 
 TON = 1.25
@@ -264,7 +265,7 @@ TOTAL TIME = 2.5
 FREQUENCY = 1/(TOTAL TIME)=400
 duty cycle=60
 v=5
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
