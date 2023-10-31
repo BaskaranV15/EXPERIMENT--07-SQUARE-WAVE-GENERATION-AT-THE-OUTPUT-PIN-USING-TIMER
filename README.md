@@ -51,7 +51,6 @@ Step1: Open CubeMX & Create New Project
 
 Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed  as shown below and click on next 
 
-
 Step3: Configure Timer2 Peripheral To Operate In PWM Mode With CH1 Output
 
 Step4: Set The RCC External Clock Source
@@ -61,10 +60,7 @@ Step5: Go To The Clock Configuration
 
 Step6: Set The System Clock To Be 72MHz
 
-
 Step7: Name & Generate The Project Initialization Code For CubeIDE or The IDE You’re Using
-
-
 
 Step8.  Creating Proteus project and running the simulation
 We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
@@ -72,17 +68,9 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 Step9. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
 14. After creation of the circuit as per requirement as shown below 
 
-
 Step10. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 
- 
 Step14. click on debug and simulate using simulation as shown below 
-
-
- 
-
-  
-
 ## STM 32 CUBE PROGRAM :
 ```
 /* USER CODE BEGIN WHILE */
@@ -236,7 +224,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 <br>
 
 ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![ex7](https://github.com/BaskaranV15/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118703522/11c6a366-aa77-4969-911d-84ac969d6ae2)
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 ```
