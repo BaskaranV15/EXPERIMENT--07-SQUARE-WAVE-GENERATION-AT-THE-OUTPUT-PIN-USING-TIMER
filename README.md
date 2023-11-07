@@ -46,6 +46,8 @@ In normal settings, assuming you’re using the timer module in PWM mode and gen
 <img src="https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/58ce0807-331e-49f7-bc8d-373f82592a92" width=450 height=450>
 <br>
 
+## DEVELOPED BY:BASKARAN V
+## REF NO:212222230020
 ## Procedure:
 Step1: Open CubeMX & Create New Project
 
